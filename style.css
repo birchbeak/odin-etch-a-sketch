@@ -1,1 +1,31 @@
 /*style.css*/
+
+
+html{
+    width:100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+}
+
+
+#prettyDiv{
+    display:flex;
+    flex-direction: column;
+    flex:0 1 70%;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex: 1 1 auto;
+}
+
+.node{
+    flex:1 1 auto;
+    border: 1px solid blue;
+}
